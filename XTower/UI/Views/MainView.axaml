@@ -12,25 +12,8 @@
 		<vm:MainViewModel />
 	</Design.DataContext>
 
-	<Border
-		HorizontalAlignment="Left"
-		VerticalAlignment="Top"
-		Margin="24"
-		Padding="20"
-		CornerRadius="12"
-		Background="#CC141820"
-		BoxShadow="0 8 24 0 #66000000"
-		MinWidth="320">
-
-		<StackPanel Spacing="12">
-			<TextBlock Text="{Binding Title}" FontSize="24" FontWeight="SemiBold" Foreground="#F0C070" />
-			<TextBlock
-				Text="Edit UI/Views/MainView.axaml and UI/ViewModels/MainViewModel.cs to build your UI."
-				TextWrapping="Wrap"
-				Opacity="0.75" />
-			<Button Content="Say hello" Command="{Binding GreetCommand}" HorizontalAlignment="Left" />
-			<TextBlock Text="{Binding Status}" Opacity="0.9" />
-		</StackPanel>
-	</Border>
+	<StackPanel>
+		<TextBlock Text="Hello, World!" />
+	</StackPanel>
 
 </UserControl>
