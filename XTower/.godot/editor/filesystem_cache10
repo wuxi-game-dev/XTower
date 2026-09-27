@@ -1,0 +1,16 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1790523714
+icon.svg::CompressedTexture2D::7104284940942176688::1790523695::1790523715::1::::<><><>0<>0<>b58602afd778be137f27817843f76392<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main.tscn::PackedScene::-1::1790523695::0::1::::<><><>0<>0<><>::res://UI/Estragonia/UserInterface.cs
+::res://UI/::1790523695
+App.axaml.cs::CSharpScript::7252124516505543411::1790523695::0::1::::<><><>0<>0<><>::
+::res://UI/Assets/::1790523695
+::res://UI/Estragonia/::1790523695
+AvaloniaControl.cs::CSharpScript::5067206212829424855::1790523695::0::1::::<><><>0<>0<><>::
+AvaloniaLoader.cs::CSharpScript::8563708683663846755::1790523695::0::1::::<><><>0<>0<><>::
+UiHost.cs::CSharpScript::6337822365565545238::1790523695::0::1::::<><><>0<>0<><>::
+UserInterface.cs::CSharpScript::1908078098283290675::1790523695::0::1::::<><><>0<>0<><>::
+::res://UI/ViewModels/::1790523695
+MainViewModel.cs::CSharpScript::8232872571867616501::1790523695::0::1::::<><><>0<>0<><>::
+::res://UI/Views/::1790523695
+MainView.axaml.cs::CSharpScript::2037738800547423528::1790523695::0::1::::<><><>0<>0<><>::
