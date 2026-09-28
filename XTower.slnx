@@ -5,7 +5,20 @@
     <BuildType Name="ExportRelease" />
     <BuildType Name="Release" />
   </Configurations>
-  <Folder Name="/docs/" />
+  <Folder Name="/docs/">
+    <File Path="docs/00-从双击到第一帧.md" />
+    <File Path="docs/01-引擎全景.md" />
+    <File Path="docs/02-主循环与生命周期.md" />
+    <File Path="docs/03-场景节点资源与通信.md" />
+    <File Path="docs/04-输入物理与导航.md" />
+    <File Path="docs/05-坐标相机与视口.md" />
+    <File Path="docs/06-渲染材质与Shader.md" />
+    <File Path="docs/07-动画UI音频与粒子.md" />
+    <File Path="docs/08-数据调试性能与发布.md" />
+    <File Path="docs/09-Unity迁移与练习.md" />
+    <File Path="docs/10-其他系统与深入方向.md" />
+    <File Path="docs/README.md" />
+  </Folder>
   <Folder Name="/Solution Items/">
     <File Path="Directory.Build.props" />
     <File Path="Directory.Packages.props" />

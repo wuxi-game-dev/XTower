@@ -1,5 +1,7 @@
 # 09｜Unity 迁移速查与练习
 
+先完成[00｜从双击到第一帧](00-从双击到第一帧.md)的观察实验，再用本章与 Unity 经验对照。否则很容易只把 API 名称换掉，却没看懂 Godot 的窗口、SceneTree、Viewport 与渲染服务之间的关系。
+
 ## 1. 从 Unity 转 Godot 的关键改念
 
 Unity 更容易被理解成“GameObject 挂多个 Component”；Godot 则倾向“特定类型的节点构成树，再把树保存为场景”。`Sprite2D`、`CollisionShape2D`、`Camera2D` 常是不同节点。脚本通常继承节点类型并挂在对应节点上。
@@ -56,7 +58,7 @@ Unity 更容易被理解成“GameObject 挂多个 Component”；Godot 则倾�
 
 ### 实验 A：验证主循环与场景
 
-建一个 `Node2D` 根场景，子节点有 `Sprite2D` 和 `Timer`。在 `_EnterTree()`、`_Ready()`、`_Process()`、`_PhysicsProcess()`、`_ExitTree()` 打少量日志。运行时观察 Remote 场景树。让 Timer 每秒生成一个相同场景实例，确认“模板”和“运行实例”的区别。
+先做第 00 章的 `BootProbe`；随后给根场景加 `Timer`。运行时观察 Remote 场景树，让 Timer 每秒生成一个相同场景实例，确认“模板”和“运行实例”的区别。
 
 完成标准：你能说出生命周期顺序，知道为什么 `_Process` 和 `_PhysicsProcess` 次数可能不同。
 
