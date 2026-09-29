@@ -19,9 +19,14 @@ config/icon="res://icon.svg"
 
 AvaloniaLoader="res://UI/Estragonia/AvaloniaLoader.cs"
 
+[display]
+
+window/stretch/mode="canvas_items"
+
 [dotnet]
 
 project/assembly_name="XTower"
+project/solution_directory="../"
 
 [rendering]
 

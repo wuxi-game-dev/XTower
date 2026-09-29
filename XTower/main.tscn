@@ -1,10 +1,10 @@
-[gd_scene format=3]
+[gd_scene format=3 uid="uid://c53iu6pp6r8ae"]
 
-[ext_resource type="Script" path="res://UI/Estragonia/UserInterface.cs" id="1_ui"]
+[ext_resource type="Script" uid="uid://2gj1diaukxcd" path="res://UI/Estragonia/UserInterface.cs" id="1_ui"]
 
-[node name="Root" type="Node"]
+[node name="Root" type="Node" unique_id=369264609]
 
-[node name="UserInterface" type="Control" parent="."]
+[node name="UserInterface" type="Control" parent="." unique_id=1167391035]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0

@@ -11,9 +11,14 @@
 	<Design.DataContext>
 		<vm:MainViewModel />
 	</Design.DataContext>
-
 	<StackPanel>
-		<TextBlock Text="Hello, World!" />
+		<TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="80" FontWeight="Bold">Ouse</TextBlock>
+		<Button>Ouse
+			<Button.Flyout>
+				<Flyout>
+					<TextBlock>Hello, World!</TextBlock>
+				</Flyout>
+			</Button.Flyout>
+		</Button>
 	</StackPanel>
-
 </UserControl>

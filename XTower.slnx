@@ -25,5 +25,9 @@
     <File Path="global.json" />
     <File Path="README.md" />
   </Folder>
+  <Project Path="../Estragonia/src/JLeb.Estragonia/JLeb.Estragonia.csproj">
+    <BuildType Solution="ExportDebug|*" Project="Release" />
+    <BuildType Solution="ExportRelease|*" Project="Release" />
+  </Project>
   <Project Path="XTower/XTower.csproj" />
 </Solution>
